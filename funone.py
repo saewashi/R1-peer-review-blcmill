@@ -6,7 +6,7 @@ For this exercise, draw a circle wherever the user clicks the mouse
 '''
 import sys, pygame
 import random
-from datetime import datetime
+from datetime import datetime# #Was
 assert sys.version_info >= (3,4), 'This script requires at least Python 3.4'
 
 screen_size = (800,600)
@@ -18,7 +18,7 @@ def main():
 
     pygame.init()
     screen = pygame.display.set_mode(screen_size)
-    font = pygame.font.SysFont("arial",64)
+    font = pygame.font.SysFont("arial",64) # not sure why a font is here. Maybe explain why there's a font?
     clock = pygame.time.Clock()
 
     (x,y,radius) = (100,100,20)
@@ -31,7 +31,7 @@ def main():
         clock.tick(FPS)
         pos = (random.randrange(800), random.randrange(600)) #random position
         if (colorCycle % 5 == 0): # depending on mouse click, execute one of these
-        #COLORS ARE DETERMINED BY POSITION
+        #COLORS ARE DETERMINED BY POSITION # Maybe there is a way you can slow down circles?
             color = (255, 255 * pos[0]/800, 255 * pos[1]/600) #Colorscheme 1
         elif (colorCycle % 5 == 1):
             color = (255 * pos[0]/800 , 255, 255 * pos[1]/600) #Colorscheme 2
@@ -41,6 +41,7 @@ def main():
             color = (0, 0, 0) #Colorscheme 4 (black)
         elif (colorCycle % 5 == 4):
             color = (255 * pos[0]/800, 255 * pos[0]/800, 255 * pos[0]/800) #Colorscheme 5 (B&W Gradient)
+            # This is a great step because I like how you incporprate gradient colors!
 
         for event in pygame.event.get():
             if event.type == pygame.QUIT:

@@ -16,7 +16,7 @@ white = (255,255,255)
 def main():
 	pygame.init()
 	screen = pygame.display.set_mode(screen_size)
-	font = pygame.font.SysFont("arial",64)
+	font = pygame.font.SysFont("arial",64) # Was there supposed to be a font size in this? There's no letters, unless this is somehow uses for the shapes.
 	clock = pygame.time.Clock()
 
 	(x,y,radius) = (100,100,20)
@@ -37,7 +37,7 @@ def main():
 		pygame.draw.circle(screen,
                                    ((int(pos[0]) * 255) / screen_size[0],
                                     (int(pos[1] * 255) / screen_size[1]),
-                                    255), pos, radius) #It also changes color!
+                                    255), pos, radius) #It also changes color! ## This was a good step to add, because it changes gradually.
 		
 		pygame.display.flip()
 
