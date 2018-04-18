@@ -1,0 +1,24 @@
+Name: Sarah K’La Washington
+Date: March 28th, 2018
+Peer’s project: Blake Miller
+
+What is something you learned by reviewing your peer’s project?
+Answer: What I learned from reviewing my peer’s project, I got to see how my peer decided to go about doing their assignment. They were able to randomly place images on the screen, as well as gradually change colors!
+
+What is something you saw in your peer’s project that you would like to apply to your own programming projects?
+Answer: I like how my peer was able to gradually change the colors of their circles. They changed from a light and dark green.
+
+What suggestions would you have for your peer to improve his/her code?
+Answer: There’s really nothing I can suggest, but maybe one thing is trying to see if they can slow the randomization of the circles. They could also randomly change the colors, e.g red, blue, orange, and green.
+
+What could have been clearer or better commented?
+Answer: From what I have read from their comments, they seem to do a good job of explaining what each line of code does. The only thing I could see that might need changing, is probably explaining more in depth what each line does, but so far it is short and simple.
+
+Was there anything in the code that was confusing to you? If so, what?
+Answer: No, everything seemed very straight forward and explained well.
+
+What is something he/she could add to the README.md to make it more descriptive?
+Answer: Something he/she could add to the READ.md, is probably explaining what the assignment does and how it is supposed to work.
+
+Pay a compliment to your peer based on the quality of his/her code.
+Answer: Well done! I like how they were able to complete the assignment, by also adding a gradient to change the colors. 
