@@ -21,4 +21,5 @@ What is something he/she could add to the README.md to make it more descriptive?
 Answer: Something he/she could add to the READ.md, is probably explaining what the assignment does and how it is supposed to work.
 
 Pay a compliment to your peer based on the quality of his/her code.
-Answer: Well done! I like how they were able to complete the assignment, by also adding a gradient to change the colors. 
+Answer: Well done! I like how they were able to complete the assignment, by also adding a gradient to change the colors.
+#Final copy, good job.
